@@ -4,16 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>assignment_1</title>
+    <title>HTML-Assignment</title>
 </head>
 <body>
-    <header>
+    <header id="top">
         <h1>Ciara Robinson</h1>
     </header>
-    <article><h2>About me</h2></article>
-    <p>Hi my name is <emphasis>Ciara Robinson</emphasis> and I am a 19 year old girl. my pronouns are she/her. I moved to Ottawa august 8<superscript>th</superscript> 2022, I used to live in a small town called manitouwadge. I moved to Ottawa to attend Algonquin college. I am currently in my first year of the Interactive Media Design program.</p>
-    <p>I have many likes and dislikes. Some of my likes are candles. I love all kinds of candles, many candles from Bath and Body Works. I love to read, my favourite genre of books are romance and mystery. My favourite thing to do is to play video games and stream on twitch. one day I wish to be as good as RanbooLive at streaming. He is the <abbr title= "Greatest of all time">GOAT</abbr>. I like all kinds of music, I mostly like making music. I play all kinds of different musical instruments, I play the drums, guitar, bass, ukulele, flute, xylophone, piano, and I like to sing although I am not good at it. I don't have many dislikes but Some of them are spiders, Big crowds of people, and public speaking. </p>
-    <blockquote>You miss 100% of the shots you don't take - <cite>Wayne Gretzky</cite></blockquote>
-    <footer>Copyright © 2022 Ciara Robinson.</footer>
+    <main>
+        <article>
+            <h2>Me</h2>
+            <img src="images/pic.jpg" alt="picture of ciara">
+        </article>
+        <article>
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Being a Pro Gamer</li>
+                <li>Photography</li>
+                <li>Long midnight walks</li>
+                <li>Streaming on Twitch <a href="https://www.twitch.tv/synrro" target="_blank">Twitch</a></li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <p>Lorem ipsum dolor sit, amet <a href="http://google.com" target="_blank">Google</a> consectetur adipisicing elit. Architecto, nostrum ut incidunt reprehenderit saepe corporis laudantium eum quo. Rerum corrupti nihil culpa <a href="page2.html">Page 2</a> laudantium cumque nostrum deserunt harum facere iusto facilis!</p>
+        </article>
+        <article>
+            <h2>Tables</h2>
+            <table>
+                <thead><caption>IMD Students</caption>
+                    <tr>
+                        <th>Student name</th>
+                        <th>Student number</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Teddy IDK Last Name</td>
+                        <td>0489934902</td>
+                    </tr>
+                    <tr>
+                        <td>Ciara Robinson</td>
+                        <td>09433783</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <h2>Forms</h2>
+            <form action="#" method="get">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input type="Ttext" id="fullname" name="name">
+                </div>
+                <div>
+                    <label for="age"> Age </label>
+                    <input type="number" id="age" name="age">
+                </div>
+                <div>
+                    <label for="comments"> Comments </label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+                <div>
+                    <label for="programs"> Programs </label>
+                    <select id="programs" name="prog">
+                        <option value="imd">IMD</option>
+                        <option value="gd">Graphic Design</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="fruit"> Fruit </label>
+                    <input type="checkbox" id="fruit" name="fruit">
+
+                    <label for="sushi"> Sushi </label>
+                    <input type="checkbox" id="sushi" name="sushi">
+
+                    <label for="burger"> Burger </label>
+                    <input for="checkbox" id="burger" name="burger">
+                </div>
+                <div>
+                    <h3>What province are you from></h3>
+                    <label for="ontario"> Ontario </label>
+                    <input type="radio" id="ontario" name="province" value="ont">
+
+                    <label for="quebec"> Quebec </label>
+                    <input type="radio" id="quebec" name="province" value="que">
+                </div>
+                <div>
+                    <button type="submit"> SEND IT </button>
+                </div>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>Copyright 2022. <a href="#top"> To The Top </a></p>
+    </footer>
 </body>
 </html>
