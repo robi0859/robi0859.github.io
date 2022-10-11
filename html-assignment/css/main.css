@@ -16,5 +16,15 @@ header, footer {
 }
 
 li:nth-child(odd) {
+    background-color:cadetblue;
+}
+
+a [href="notes.html"] {
+    text-decoration: none;
     background-color: darkseagreen;
+    border: 2px;
+}
+
+a:hover, a:active {
+    background-color: darkslategray;
 }
