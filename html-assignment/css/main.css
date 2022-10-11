@@ -15,6 +15,6 @@ header, footer {
     box-shadow: 0px 0px 2px 1px black
 }
 
-p:nth-child(2,4) {
+ul:nth-child(2,4) {
     background: teal;
 }
