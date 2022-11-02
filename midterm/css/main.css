@@ -1,13 +1,51 @@
-header {
+body {
+    background-color: #aad4cf;
+}
+
+.box {
+    width: 1020px;
+    height: 1650px;
+    border: 1px solid black;
+    padding: 2px;
     margin: auto;
+    background: #d4e8e7;
+}
+
+.image {
+    z-index: 1;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 1rem;
+    padding: 6rem;
+    text-align: center;
+    font-size: 30px;
 }
 
-.wrapper {
-    width: 750px;
+.img {
+    float: left;
+}
+
+.text {
+    font-size: 20px;
+}
+
+footer {
+    text-align: right;
+}
+
+.contact {
+    width: 1020px;
+    height: 330px;
+    border: 1px solid black;
+    padding: 2px;
     margin: auto;
 }
