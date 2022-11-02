@@ -8,5 +8,6 @@ nav ul li {
 }
 
 .wrapper {
+    width: 750px;
     margin: auto;
 }
