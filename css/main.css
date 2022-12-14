@@ -1,1 +1,10 @@
-/*Don't add media quary at the begining of css add it to the bottom.*/
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    /* protects when using float from list items */
+    overflow: auto;
+}
